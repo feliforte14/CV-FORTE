@@ -1,0 +1,285 @@
+/* Estilos generales */
+
+
+  
+  
+  
+  /* Estilos para el encabezado */
+  
+  .header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header-title {
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .header-nav {
+    margin-top: 10px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-list li a:hover {
+    color: #a9ddff;
+  }
+  
+  /* Estilos para el index */
+  
+  
+  .index-box{
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .index-box-content h2 {
+    font-size: 28px;
+    color: #3498db;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .index-box-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 40px;
+  }
+  
+  .index-box img {
+    max-width: 100%; 
+    height: auto; 
+    align-items: center;
+    border: 2px solid #3498db; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px;
+  }
+  
+  .container {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .btn{
+    background-color: #3498db;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el Sobre mi */
+  
+  .sobremi-box{
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .sobremi-box h2 {
+    font-size: 28px;
+    color: #3498db;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .sobremi-box-content {
+    background-color: #a9ddff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px;
+  }
+  
+  .sobremi-box-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 50px;
+    margin-top: 13px;
+  }
+  
+  .sobremi-box-content span {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  
+  
+  
+  
+  /* Estilos para el Educacion */
+  
+  .educacion-box {
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .educacion-box-content h2 {
+    font-size: 28px;
+    color: #3498db;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .educacion-box-2 {
+    text-align: center;
+  }
+  
+  .educacion-box-2-content {
+    background-color: #a9ddff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+  
+  .educacion-box-2 h3 {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .educacion-box-content-2-ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .educacion-box-content-2-ul li {
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
+  
+  .educacion-box-content-2-ul p {
+    margin-top: 5px; 
+    font-size: 16px; 
+  }
+  
+  
+  .educacion-box-content-2-ul a {
+    text-decoration: none; 
+    color: #007BFF; 
+  }
+  
+  .educacion-box-content-2-ul a:hover {
+    text-decoration: underline; 
+  }
+  
+  
+  .carousel-slide{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .educacion-box-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .carrusel{
+      text-align: center;
+      justify-content: center;
+      background-color: #CCCCCC;
+      border-radius: 30px;
+      background-color: #a9ddff;
+      margin: 40px;
+      max-width:500px;
+      height:auto;
+      padding: 15px;
+  }
+  
+  .carrusel h3{
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    color: #3498db;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .carrusel img {
+    border-radius: 20px;
+    background-color: white;
+  }
+  
+  
+  /* Estilos para el Empleos */
+  
+  .empleos-box {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .empleos-box h2 {
+    font-size: 28px;
+    color: #3498db;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .job {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #a9ddff;
+    border-radius: 30px;
+  }
+  
+  .job-title {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .job-duration {
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+  }
+  
+  .job-description {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .job-description img {
+    max-width: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #3498db
+  }
+  
