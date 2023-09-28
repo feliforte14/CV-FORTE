@@ -47,6 +47,25 @@
     color: #a9ddff;
   }
   
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 24px; 
+    }
+  
+    .nav-list li {
+      display: block; 
+      margin: 10px 0; 
+    }
+
+    .nav-list li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+
+
   /* Estilos para el index */
   
   
@@ -95,6 +114,18 @@
     text-decoration: none;
   }
   
+  @media (max-width: 768px) {
+    .index-box img {
+      max-width: 50%; 
+      height: auto; 
+      align-items: center;
+      border: 2px solid #3498db; 
+      border-radius: 5px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      margin-top: 10px;
+    }
+  }
+
   /* Estilos para el Sobre mi */
   
   .sobremi-box{
@@ -283,3 +314,18 @@
     border: 2px solid #3498db
   }
   
+  @media (max-width: 768px) {
+
+    .job-duration {
+      display: none;
+    }
+
+    .job-description img {
+      max-width: 150px;
+      background-color: #fff;
+      border-radius: 30px;
+      border: 2px solid #3498db
+    }
+
+
+  }
